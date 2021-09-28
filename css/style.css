@@ -52,7 +52,7 @@ p{
 }
 
 a{
-  color:  #C12258;
+  color:  #B21F50;
   font-size:16px;
   text-decoration-style: wavy;
 }
@@ -73,9 +73,9 @@ tbody tr td{
 
 .colhead{
   color: #FFFFFF;
-  min-height: 125px;
+  min-width: 125px;
   padding:10px;
-  text-align: center;
+  margin:auto;
   text-transform: uppercase;
   background-color: #7e0825;
 }
@@ -120,8 +120,7 @@ tr:nth-child(odd) {
 }
 
 table tbody tr:hover{
-  background-color:#7e0825;
-  opacity: 0.25;
+  background-color: rgba(126, 8, 37, 0.25);
 }
 
 
@@ -131,6 +130,8 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
-  width: 100%;
+  position:fixed;
+  right:0px;
+  left:0px;
+  bottom:0px;
 }
