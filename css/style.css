@@ -130,8 +130,8 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position:fixed;
+  position:absolute;
   right:0px;
   left:0px;
-  bottom:0px;
+  
 }
